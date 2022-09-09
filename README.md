@@ -11,6 +11,4 @@ A [dataset](https://www.kaggle.com/datasets/die9origephit/nike-adidas-and-conver
 
 The base model was ResNet50V2, and a Dense layer of 1024 nodes was added on top of this. The model ended after epoch 9 due to early stopping (min_delta = 0.1, patience = 3). The test accuracy was approximately 70%, which is over twice that of random chance (33%). 
 
-![results](images/results.png)
-
 ![results_graph](images/results_graph.png)
