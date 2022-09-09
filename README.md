@@ -1,5 +1,5 @@
 # Shoe-Brand-Classifier
-Developed CNN that reads images of shoes and predicts their brand (66% accuracy)
+Developed CNN that reads images of shoes and predicts their brand (70% accuracy)
 
 ## Overview
 
@@ -9,6 +9,8 @@ A [dataset](https://www.kaggle.com/datasets/die9origephit/nike-adidas-and-conver
 
 ## Results
 
-The base model was ResNet50V2, and a Dense layer of 1024 nodes was added on top of this. The model ended after epoch 12 due to early stopping (min_delta = 0.1, patience = 3). The final accuracy was approximately 66%, which is twice that of random chance (33%). 
+The base model was ResNet50V2, and a Dense layer of 1024 nodes was added on top of this. The model ended after epoch 9 due to early stopping (min_delta = 0.1, patience = 3). The test accuracy was approximately 70%, which is over twice that of random chance (33%). 
 
 ![results](images/results.png)
+
+![results_graph](images/results_graph.png)
